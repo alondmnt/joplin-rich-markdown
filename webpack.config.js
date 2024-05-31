@@ -119,13 +119,16 @@ const baseConfig = {
 	target: 'node',
 	stats: 'errors-only',
 	module: {
-		rules: [
-			{
-				test: /\.tsx?$/,
-				use: 'ts-loader',
-				exclude: /node_modules/,
-			},
-		],
+	  rules: [
+		{
+		  test: /\.tsx?$/,
+		  use: 'ts-loader',
+		  exclude: /node_modules\/(?!@joplin)/, // Exclude all node_modules except @joplin
+		},
+	  ],
+	},
+	resolve: {
+	  extensions: ['.tsx', '.ts', '.js'],
 	},
 };
 
