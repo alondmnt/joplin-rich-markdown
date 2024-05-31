@@ -115,3 +115,54 @@ div.CodeMirror span.cm-property.cm-rm-checkbox {
 }
 /* END Checkbox */
 
+/* inline tags */
+div.CodeMirror .cm-rm-tag {
+	background-color: #7698b3;
+	color: white !important;
+	padding: 0em 2px;
+	border-radius: 5px;
+	display: inline;
+}
+
+/* xit TODOs */
+div.CodeMirror .cm-rm-xitOpen * {
+	font-family: monospace !important;
+	color: #4178be !important;
+	font-weight: bold !important;
+	/* background-color: #a3c3f5 !important; */
+}
+
+div.CodeMirror .cm-rm-xitDone * {
+	font-family: monospace !important;
+	color: #64a073 !important;
+	font-weight: bold !important;
+	/* background-color: #b9d7bf !important; */
+}
+
+div.CodeMirror .cm-rm-xitOngoing * {
+	font-family: monospace !important;
+	color: #cb55c2 !important;
+	font-weight: bold !important;
+	/* background-color: #ebace8 !important; */
+}
+
+div.CodeMirror .cm-rm-xitObsolete * {
+	font-family: monospace !important;
+	color: #999999 !important;
+	font-weight: bold !important;
+	/* background-color: #c4c4c4 !important; */
+}
+
+div.CodeMirror .cm-rm-xitInQuestion * {
+	font-family: monospace !important;
+	color: #cc913f !important;
+	font-weight: bold !important;
+	/* background-color: #e9c79f !important; */
+}
+
+div.CodeMirror .cm-rm-xitBlocked * {
+	font-family: monospace !important;
+	color: #e22d2d !important;
+	font-weight: bold !important;
+	/* background-color: #f5aaaa !important; */
+}

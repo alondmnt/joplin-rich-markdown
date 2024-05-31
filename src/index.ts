@@ -3,8 +3,6 @@ import { ContentScriptType, MenuItem, MenuItemLocation, ModelType } from 'api/ty
 
 import { getAllSettings, registerAllSettings } from './settings';
 
-import { mime } from '@joplin/lib/mime-utils';
-
 // TODO: Waiting for https://github.com/laurent22/joplin/pull/4509
 // import prettier = require('prettier/standalone');
 // import markdown = require('prettier/parser-markdown');
