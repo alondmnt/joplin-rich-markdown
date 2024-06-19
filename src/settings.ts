@@ -168,7 +168,7 @@ export async function registerAllSettings() {
 			description: 'Fades the markdown characters on other lines',
 		},
 		'regexOverlays': {
-			value: '[{ 	"name": "rm-tag", 	"regex": "(?<=^|\\s)([#@+]|\\/\\/)([^\\s#@+\'\\"]*\\w)" }, { 	"name": "rm-xitOpen", 	"regex": "(?<=^\\s*)[-+*] \\[ \\](?=\\s.*)" }, { 	"name": "rm-xitDone", 	"regex": "(?<=^\\s*)[-+*] \\[x\\](?=\\s.*)" }, { 	"name": "rm-xitOngoing", 	"regex": "(?<=^\\s*)[-+*] \\[@\\](?=\\s.*)" }, { 	"name": "rm-xitObsolete", 	"regex": "(?<=^\\s*)[-+*] \\[~\\](?=\\s.*)" }, { 	"name": "rm-xitInQuestion", 	"regex": "(?<=^\\s*)[-+*] \\[\\?\\](?=\\s.*)" }, { 	"name": "rm-xitBlocked", 	"regex": "(?<=^\\s*)[-+*] \\[!\\](?=\\s.*)" }]',
+			value: '[{ 	"name": "rm-tag", 	"regex": "(?<=^|\\\\s)([#@+]|\\\\/\\\\/)([^\\\\s#@+\'\\"]*\\\\w)" }, { 	"name": "rm-xitOpen", 	"regex": "(?<=^\\\\s*)[-+*] \\\\[ \\\\](?=\\\\s.*)" }, { 	"name": "rm-xitDone", 	"regex": "(?<=^\\\\s*)[-+*] \\\\[x\\\\](?=\\\\s.*)" }, { 	"name": "rm-xitOngoing", 	"regex": "(?<=^\\\\s*)[-+*] \\\\[@\\\\](?=\\\\s.*)" }, { 	"name": "rm-xitObsolete", 	"regex": "(?<=^\\\\s*)[-+*] \\\\[~\\\\](?=\\\\s.*)" }, { 	"name": "rm-xitInQuestion", 	"regex": "(?<=^\\\\s*)[-+*] \\\\[\\\\?\\\\](?=\\\\s.*)" }, { 	"name": "rm-xitBlocked", 	"regex": "(?<=^\\\\s*)[-+*] \\\\[!\\\\](?=\\\\s.*)" }]',
 			type: SettingItemType.String,
 			section: 'settings.calebjohn.richmarkdown',
 			public: true,
